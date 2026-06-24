@@ -96,17 +96,6 @@ python test-end2end.py \
     --temporal_offsets 0 1 2 3
 ```
 
-## Results
-
-| Method | PSNR (dB) |   Runtime (ms) |
-|--------|-----------|--------------|
-| TurbNet | 27.5 |  ~50 |
-| NAFNet | 28.5 |  ~20 |
-| EFNet | 28.7 |  ~15 |
-| **EvTurb (Ours)** | **29.5+** | ~60 |
-
-Results on the TurbEvent test set (NVIDIA RTX 3090 GPU).
-
 ## Code Structure
 
 ```
