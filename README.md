@@ -98,12 +98,12 @@ python test-end2end.py \
 
 ## Results
 
-| Method | PSNR (dB) | SSIM | Runtime (ms) |
-|--------|-----------|------|--------------|
-| TurbNet | 27.5 | - | ~50 |
-| NAFNet | 28.5 | - | ~20 |
-| EFNet | 28.7 | - | ~15 |
-| **EvTurb (Ours)** | **29.5+** | - | ~60 |
+| Method | PSNR (dB) |   Runtime (ms) |
+|--------|-----------|--------------|
+| TurbNet | 27.5 |  ~50 |
+| NAFNet | 28.5 |  ~20 |
+| EFNet | 28.7 |  ~15 |
+| **EvTurb (Ours)** | **29.5+** | ~60 |
 
 Results on the TurbEvent test set (NVIDIA RTX 3090 GPU).
 
@@ -135,6 +135,4 @@ EvTurb/
 ```
 
 ## Acknowledgements
-
-- SAM module adapted from [MPRNet](https://github.com/swz30/MPRNet)
 - Warp function adapted from [RIFE](https://github.com/megvii-research/ECCV2022-RIFE)
