@@ -1,6 +1,6 @@
 # EvTurb: Event Camera Guided Turbulence Removal
 
-**[CVPR 2026? / arXiv 2025]** &nbsp; [![arXiv](https://img.shields.io/badge/arXiv-2508.10582-b31b1b.svg)](https://arxiv.org/abs/2508.10582)
+**[TCI / arXiv 2025]** &nbsp; [![arXiv](https://img.shields.io/badge/arXiv-2508.10582-b31b1b.svg)](https://arxiv.org/abs/2508.10582)
 
 > **EvTurb: Event Camera Guided Turbulence Removal**  
 > Yixing Liu\*, Minggui Teng\*, Yifei Xia, Peiqi Duan, Boxin Shi†  
