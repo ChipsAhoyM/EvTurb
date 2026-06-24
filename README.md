@@ -74,25 +74,6 @@ python train-end2end.py \
     --resume checkpoints/best_model.pth
 ```
 
-**Two-stage training (Stage 1 then Stage 2 separately):**
-
-```bash
-# Stage 1: train D-Net
-# (use a separate training script or adapt train-end2end.py)
-
-# Generate Stage 1 outputs for Stage 2 training
-python test.py \
-    --data_root /path/to/TurbEvent \
-    --checkpoint checkpoints/dnet_best.pth \
-    --save_dir /path/to/TurbEvent/first_stage
-
-# Stage 2: train T-Net with frozen D-Net
-python train.py \
-    --data_root /path/to/TurbEvent \
-    --dnet_checkpoint checkpoints/dnet_best.pth \
-    --checkpoint_dir checkpoints2
-```
-
 ## Evaluation
 
 **End-to-end evaluation:**
@@ -139,10 +120,7 @@ EvTurb/
 ├── utils.py         # Event processing and evaluation metrics
 ├── ssim.py          # Differentiable SSIM loss
 ├── train-end2end.py # End-to-end training script
-├── train.py         # Two-stage training script (Stage 2 only)
-├── test-end2end.py  # End-to-end evaluation
-├── test.py          # Stage 1 inference
-└── test-second.py   # Stage 2 inference
+└── test-end2end.py  # End-to-end evaluation
 ```
 
 ## Citation
