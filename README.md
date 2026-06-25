@@ -29,8 +29,6 @@ TurbEvent/
 ├── frame/          # turbulent RGB input frames (.png)
 ├── gt/             # ground-truth turbulence-free frames (.png)
 ├── event/          # stacked event representations (.npz)
-├── var/            # variance maps computed from event streams (.npz)
-├── first_stage/    # D-Net outputs for Stage 2 training (.png)
 ├── train.json      # list of training sample IDs
 └── test.json       # list of test sample IDs
 ```
@@ -83,17 +81,6 @@ python test-end2end.py \
     --data_root /path/to/TurbEvent \
     --checkpoint checkpoints/best_model.pth \
     --save_dir results
-```
-
-**Robustness evaluation** (with spatial/temporal calibration offsets):
-
-```bash
-python test-end2end.py \
-    --data_root /path/to/TurbEvent \
-    --checkpoint checkpoints/best_model.pth \
-    --save_dir results \
-    --spatial_offsets 0 1 2 3 \
-    --temporal_offsets 0 1 2 3
 ```
 
 ## Code Structure
