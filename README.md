@@ -102,12 +102,16 @@ EvTurb/
 ## Citation
 
 ```bibtex
-@article{liu2025evturb,
-  title={EvTurb: Event Camera Guided Turbulence Removal},
+@ARTICLE{11538293,
   author={Liu, Yixing and Teng, Minggui and Xia, Yifei and Duan, Peiqi and Shi, Boxin},
-  journal={arXiv preprint arXiv:2508.10582},
-  year={2025}
-}
+  journal={IEEE Transactions on Computational Imaging}, 
+  title={EvTurb: Event Camera Guided Turbulence Removal}, 
+  year={2026},
+  volume={12},
+  number={},
+  pages={1060-1072},
+  keywords={Modeling;Cameras;Computers;Computer vision;Event detection;Educational institutions;Pattern recognition;Training;Videos;Conferences;Computational photography;event camera;turbulence removal},
+  doi={10.1109/TCI.2026.3697623}}
 ```
 
 ## Acknowledgements
